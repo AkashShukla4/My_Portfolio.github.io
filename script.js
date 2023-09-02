@@ -1,15 +1,17 @@
 
 
-// ===================== Toggle icon navbar =====================
-let menuIcon = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
-
-menuIcon.onclick = () => {
-    menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('active');
-};
+// ===================== Show Message after contacting =====================
 
 
-// ===================== scroll section active links =====================
-let sections = document.querySelectorAll('section');
-let navLinks = document.querySelectorAll('header nav a');
+    let contactMe = document.querySelector('[value = "Send Message"]');
+
+    contactMe.addEventListener('click', callBack);
+
+    function callBack(){
+        setTimeout(() => {alert('Thank You for Contacting Me!')}
+        ,800);
+    }
+
+
+  
+  
