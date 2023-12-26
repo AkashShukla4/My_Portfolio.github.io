@@ -278,6 +278,7 @@ span {
 
 .portfolio-box:hover img {
   scale: 1.1;
+  object-fit: contain;
 }
 
 .portfolio-container .portfolio-box {
